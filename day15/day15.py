@@ -2,7 +2,9 @@ from functget_todo import get_todo
 from funcwrite import write_todo
 import time
 
+
 now = time.strftime('%Y %b %d-%A %w %H:%H:%S %p')
+print("Here are the details:")
 print(f'Toady is {now}')
 
 while True:
